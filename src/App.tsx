@@ -74,7 +74,7 @@ const Content: FC = () => {
             return null
         }
         /* network set to local network for now */
-        const network: string = (process.env.REACT_APP_DEV_URL as string)
+        const network = 'https://api.devnet.solana.com'
         const connection = new Connection(network, 'processed');
         const provider = new anchor.AnchorProvider(
             connection, wallet, {"preflightCommitment": "processed"},
