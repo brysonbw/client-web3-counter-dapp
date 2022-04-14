@@ -1,5 +1,5 @@
 ## Solana Web3 Counter DApp
-- Anonymous users can 'login' with their Solana wallet via solana wallet adapter
+- Anonymous users can 'login' with their Solana wallet via Solana wallet adapter package
 - Anonymous users can create/intilize an account to start the counter, increment and decrement
 
 ### Client/Front-End
@@ -14,7 +14,7 @@
 - Anchor (Framework)
 
 ### To try out the web DApp
-- Make sure to connect to 'devnet' in phantom (solana) wallet
+- Make sure to connect to 'devnet' in Solana wallet
 - Airdrop yourself Solana test tokens -> for fees to connect and increment or decrement
 - link to airdrop -> https://docs.solana.com/cli/transfer-tokens
 
